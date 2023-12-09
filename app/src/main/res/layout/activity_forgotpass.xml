@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/search_outline"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/movie_logo_foreground" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="FORGOT PASSWORD"
+            android:textColor="@color/orange"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/search_outline"
+            android:ems="15"
+            android:hint="Your email"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textColorHint="#FFFFFF"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="@color/orange"
+            android:text="Send code"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

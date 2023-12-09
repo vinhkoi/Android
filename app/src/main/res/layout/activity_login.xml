@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/movie_logo_foreground" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:text="MOVIE STREAMING"
+            android:textColor="#fff"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textColor="@color/orange"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/search_outline"
+            android:ems="15"
+            android:hint="Username"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textColorHint="#FCFBFB"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/search_outline"
+            android:ems="15"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textColorHint="#FCFCFC"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="@color/orange"
+            android:text="Login"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot password?"
+            android:textColor="#fff"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btnForgotpass"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/orange"
+            android:text="Reset"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>
